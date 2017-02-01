@@ -69,22 +69,6 @@ public class main {
             else if (toContinue == 'y' || toContinue == 'Y') {
 
             }
-
-/*
-            else {
-                while (toContinue != 'y' || toContinue != 'n' || toContinue != 'Y' || toContinue != 'N') {
-                    System.out.println("Please enter a y or n");
-                    toContinue = sc.next().charAt(0);
-                } 
-            }
- */       
-
         }
- 
-        
-
-    
-
     }
-
 }
