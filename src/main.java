@@ -29,15 +29,13 @@ public class main {
         System.out.println("Learn your squares and cubes!");
         System.out.println("");
 
-
         while (true) {
             System.out.print("Enter an integer: ");
             userInput = sc.nextInt();
             sc.nextLine();
 
-            // System.out.format("%32s%10d%16s", string1, int1, string2);
-
             printHeader();
+
             for (int i = 1; i <= userInput; i++) {
                 System.out.format("%15d%15d%15d", i, calculateSquared(i), calculateCubed(i));
                 System.out.println("");
@@ -61,7 +59,6 @@ public class main {
                     System.out.println("Please enter y or n!");
                 }
             }
-
 
             if (toContinue == 'n' || toContinue == 'N') {
                 break;
